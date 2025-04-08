@@ -34,4 +34,4 @@ jobs:
         env:
           SONAR_TOKEN: 683f511359c0b5bcf4184482bdb85562fc66e607
         run: |
-          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=mariia10_sast-suit2
+          mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=mariia10_sast-suit2 -e
